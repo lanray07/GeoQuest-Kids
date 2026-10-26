@@ -2,7 +2,7 @@
 
 Publisher: **Lanray**  
 Contact: **banksmi@mail.com**  
-Updated: 25 October 2026
+Updated: 26 October 2026
 
 GlobeMilo does not require a publisher account. Explorer profiles and learning records are stored on the device, so a parent can remove them directly without contacting us or deleting an online account.
 
