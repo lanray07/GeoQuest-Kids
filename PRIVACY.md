@@ -1,10 +1,10 @@
-# GeoQuest Kids privacy policy
+# GlobeMilo privacy policy
 
 Effective date: 26 October 2026  
 Publisher: **Lanray** (GitHub account: [lanray07](https://github.com/lanray07))  
 Privacy and support contact: **banksmi@mail.com**
 
-GeoQuest Kids is a geography learning game for children around 6–12 and their families. This policy describes the Android application and its optional device voice and Amazon purchase features.
+GlobeMilo is a geography learning game for children around 6–12 and their families. This policy describes the Android application and its optional device voice and Amazon purchase features.
 
 ## A short explanation for explorers
 
@@ -14,7 +14,7 @@ Your nickname and discoveries stay on your device. There are no adverts, public 
 
 The app stores an explorer nickname, chosen avatar, difficulty, enabled activities, answers and attempts, completed journeys, dates and daily playtime on the device. These records support the games, adaptive difficulty, playtime controls and the parent progress view. Use a nickname rather than a child's full name.
 
-GeoQuest does not send these profiles or learning records to a publisher-operated server. There is no mandatory account, behavioural advertising, publisher analytics service, public leaderboard, social feed or open chat. The app does not request device location or access to contacts, photos, messages or calendars. App cloud backup and device-transfer backup are disabled in the application configuration.
+GlobeMilo does not send these profiles or learning records to a publisher-operated server. There is no mandatory account, behavioural advertising, publisher analytics service, public leaderboard, social feed or open chat. The app does not request device location or access to contacts, photos, messages or calendars. App cloud backup and device-transfer backup are disabled in the application configuration.
 
 ## Spoken guidance
 
@@ -26,13 +26,13 @@ The app checks whether the Amazon Appstore (or Amazon App Tester during local te
 
 Microphone input is off by default. A parent must enable it in the protected parent area and grant the device microphone permission. Each recognition interaction starts from a tap on the microphone; the app does not continuously listen.
 
-GeoQuest does not save raw audio or speech transcripts. An installed speech-recognition provider may transmit audio to its own servers to recognise a command. The app requests an offline preference but does not guarantee offline recognition. A voice can contain personal information, so review the installed provider's privacy terms and device settings before enabling this feature. Parents can leave it disabled, turn it off in the app, and revoke microphone permission in device settings. Every activity has touch controls.
+GlobeMilo does not save raw audio or speech transcripts. An installed speech-recognition provider may transmit audio to its own servers to recognise a command. The app requests an offline preference but does not guarantee offline recognition. A voice can contain personal information, so review the installed provider's privacy terms and device settings before enabling this feature. Parents can leave it disabled, turn it off in the app, and revoke microphone permission in device settings. Every activity has touch controls.
 
 The command parser accepts a small set of game commands. It is not an open-ended AI chat service. A parent gate and device permission are interaction controls; they are not a representation that legally verified parental consent has been obtained for every possible voice provider or jurisdiction.
 
 ## Amazon purchases
 
-Optional purchases and restoration use Amazon's Appstore SDK in the parent area. Amazon handles the purchase account, payment interface and transaction processing. GeoQuest does not receive payment-card details.
+Optional purchases and restoration use Amazon's Appstore SDK in the parent area. Amazon handles the purchase account, payment interface and transaction processing. GlobeMilo does not receive payment-card details.
 
 The app receives Amazon product information, an app-specific Amazon user identifier and entitlement receipt information needed to handle purchases and restoration. It stores the Amazon account association and premium entitlement locally. Amazon and its Appstore services may process account, transaction and technical device information under their own privacy terms. See [Amazon's privacy notice](https://www.amazon.com/privacy). The publisher does not use purchase information for advertising or child profiling.
 
