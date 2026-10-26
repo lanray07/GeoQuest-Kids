@@ -19,13 +19,12 @@ This permanently removes that explorer's nickname, avatar/profile settings, answ
 
 Use the device's application storage controls to clear GlobeMilo data, or uninstall the application. Menu names vary by device. This removes local profiles, learning records, parent preferences and the local purchase cache. Clearing local data does not cancel or erase purchases held by Amazon; use **Restore Amazon purchase** in the parent area when available to restore eligible access.
 
-## Microphone and voice services
+## Spoken guidance and microphone commands
 
-GlobeMilo stores no raw recordings or speech transcripts. You can disable push-to-talk in the parent area and revoke microphone permission in device settings. An installed speech-recognition or text-to-speech provider may process information separately; use that provider's privacy controls for its records.
+Version 0.2.4 does not include microphone commands, request microphone permission or record audio. You can disable optional spoken guidance in the parent area. An installed text-to-speech provider may process geography text separately; use that provider's privacy controls for its records.
 
 ## Need help or have a privacy request?
 
 A parent can email **banksmi@mail.com** for instructions or help with an applicable access/correction/deletion request. Please identify the app and the problem, but do not send children's audio recordings, full names or unnecessary personal details. The publisher has no remote access to the local learning database and cannot delete it remotely. Amazon handles Amazon account, purchase and payment-data requests.
 
 Read the [privacy policy](PRIVACY.md) for the complete data-handling description.
-
