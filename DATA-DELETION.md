@@ -21,7 +21,7 @@ Use the device's application storage controls to clear GlobeMilo data, or uninst
 
 ## Spoken guidance and microphone commands
 
-Version 0.3.0 adds optional offline English microphone commands. Audio and recognised words are temporary in-memory data, never saved or sent, so there are no recording or transcript files to delete. Disable offline commands in the parent area and revoke microphone permission in Android settings to prevent further use. The existing 0.2.4 Amazon draft has no microphone feature. You can disable optional spoken guidance in the parent area. An installed text-to-speech provider may process geography text separately; use that provider's privacy controls for its records.
+Version 0.3.0 adds optional offline English microphone commands. Audio and recognised words are temporary in-memory data, never saved or sent, so there are no recording or transcript files to delete. Disable offline commands in the parent area and revoke microphone permission in Android settings to prevent further use. Earlier version 0.2.4 had no microphone feature. You can disable optional spoken guidance in the parent area. An installed text-to-speech provider may process geography text separately; use that provider's privacy controls for its records.
 
 ## Need help or have a privacy request?
 
