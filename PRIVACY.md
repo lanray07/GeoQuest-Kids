@@ -32,7 +32,7 @@ The bundled Vosk engine processes English speech entirely on the device. Microph
 
 The model files are stored locally. They are general language data, not recordings or a profile of the child. Parents can disable offline commands in the parent area and revoke microphone permission in Android settings.
 
-Version 0.2.4, which remains the existing Amazon draft until replaced, contains no microphone commands or microphone permission. Optional spoken guidance is separate text-to-speech output using an installed Android provider; that provider may require downloads or network access.
+Earlier version 0.2.4 contained no microphone commands or microphone permission; version 0.3.0 introduces the optional offline English feature described above. Optional spoken guidance is separate text-to-speech output using an installed Android provider; that provider may require downloads or network access.
 
 The arithmetic parent gate is an interaction control. It is not a claim that legally verified parental consent has been obtained for other processing or every jurisdiction.
 
