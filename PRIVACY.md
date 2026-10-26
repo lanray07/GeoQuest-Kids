@@ -1,6 +1,6 @@
 # GeoQuest Kids privacy policy
 
-Effective date: 25 October 2026  
+Effective date: 26 October 2026  
 Publisher: **Lanray** (GitHub account: [lanray07](https://github.com/lanray07))  
 Privacy and support contact: **banksmi@mail.com**
 
@@ -19,6 +19,8 @@ GeoQuest does not send these profiles or learning records to a publisher-operate
 ## Spoken guidance
 
 Optional narration uses the Android text-to-speech service installed on the device. It receives the instructions and geography text to speak. Voices may need a download or network access. Availability and processing depend on the installed provider. Touch controls remain available if a voice is missing or narration is turned off.
+
+The app checks whether the Amazon Appstore (or Amazon App Tester during local testing) is installed and whether compatible device speech services are available, so it can enable the corresponding features. These are limited availability checks, not an upload of a general installed-app inventory.
 
 ## Optional microphone commands
 
@@ -55,4 +57,3 @@ Contact **banksmi@mail.com** for privacy questions or help exercising applicable
 ## Updates
 
 The effective date above identifies this policy version. The policy should be updated before material changes to data handling or additional online features are introduced. This page describes the current design; it does not claim independent legal certification or expert review.
-
