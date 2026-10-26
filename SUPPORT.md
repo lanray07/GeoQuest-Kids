@@ -1,4 +1,4 @@
-# GeoQuest Kids support
+# GlobeMilo support
 
 Publisher: **Lanray**  
 Customer support: **banksmi@mail.com**
