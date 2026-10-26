@@ -22,11 +22,17 @@ Optional narration uses the Android text-to-speech service installed on the devi
 
 The app checks whether the Amazon Appstore (or Amazon App Tester during local testing) is installed and whether a compatible text-to-speech service is available, so it can enable the corresponding features. These are limited availability checks, not an upload of a general installed-app inventory.
 
-## Microphone-free first release
+## Optional offline microphone commands (version 0.3.0)
 
-Version 0.2.4 does not include microphone commands, request microphone permission, create a speech recognizer or record audio. Touch controls are available for every game. An earlier development build had optional push-to-talk; that feature is disabled in this release, including any opt-in saved by an earlier build.
+Microphone commands are optional and off by default. A parent must explicitly enable the new offline voice setting and grant Android microphone permission. Previous microphone settings do not enable this feature automatically. Touch controls remain available for every game.
 
-Optional spoken guidance is text-to-speech output using the installed Android provider. It speaks game instructions and geography text, not a child's recordings. Voices may require downloads or network access; review the installed provider's terms and settings. The app does not guarantee every voice or language will be available.
+Tapping the microphone begins one listening session lasting up to eight seconds. A visible preparation/listening dialog includes a cancel button. Cancelling, leaving the app, opening the parent gate, changing the game context or disabling the setting stops listening. There is no wake word or background listening.
+
+The bundled Vosk engine processes English speech entirely on the device. Microphone audio and recognised words are held temporarily in memory to select one of eight gameplay commands. GlobeMilo does not save, log, upload or share recordings or transcripts. There is no speech-service account, subscription, remote speech API or model download during use. The recogniser cannot make purchases, delete profiles, answer questions or open protected settings. Recognition accuracy varies with voices and background noise; touch controls remain available.
+
+The model files are stored locally. They are general language data, not recordings or a profile of the child. Parents can disable offline commands in the parent area and revoke microphone permission in Android settings.
+
+Version 0.2.4, which remains the existing Amazon draft until replaced, contains no microphone commands or microphone permission. Optional spoken guidance is separate text-to-speech output using an installed Android provider; that provider may require downloads or network access.
 
 The arithmetic parent gate is an interaction control. It is not a claim that legally verified parental consent has been obtained for other processing or every jurisdiction.
 
@@ -50,7 +56,7 @@ If you voluntarily contact support, your email address and message are used to r
 
 ## Parents and children's privacy
 
-Parents control optional narration, difficulty and local profile deletion. Microphone commands are not included in this release. The game uses high-privacy defaults and does not require a child to provide a real name, birth date or email address. Optional third-party text-to-speech and purchase services have their own processing and retention practices. Parents can turn narration off and use the included games by touch.
+Parents control optional narration, difficulty and local profile deletion. Offline microphone commands in version 0.3.0 require a fresh parent opt-in and runtime permission. The game uses high-privacy defaults and does not require a child to provide a real name, birth date or email address. Optional third-party text-to-speech and purchase services have their own processing and retention practices. Parents can turn narration off and use the included games by touch.
 
 Contact **banksmi@mail.com** for privacy questions or help exercising applicable access, correction or deletion rights. Because learning data is stored locally, the publisher cannot remotely retrieve or delete a device's learning database.
 
