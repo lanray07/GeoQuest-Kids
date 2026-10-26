@@ -4,7 +4,7 @@ Effective date: 26 October 2026
 Publisher: **Lanray** (GitHub account: [lanray07](https://github.com/lanray07))  
 Privacy and support contact: **banksmi@mail.com**
 
-GlobeMilo is a geography learning game for children around 6–12 and their families. This policy describes the Android application and its optional device voice and Amazon purchase features.
+GlobeMilo is a geography learning game for children around 6–12 and their families. This policy describes the Android application and its optional spoken-guidance and Amazon purchase features.
 
 ## A short explanation for explorers
 
@@ -20,15 +20,15 @@ GlobeMilo does not send these profiles or learning records to a publisher-operat
 
 Optional narration uses the Android text-to-speech service installed on the device. It receives the instructions and geography text to speak. Voices may need a download or network access. Availability and processing depend on the installed provider. Touch controls remain available if a voice is missing or narration is turned off.
 
-The app checks whether the Amazon Appstore (or Amazon App Tester during local testing) is installed and whether compatible device speech services are available, so it can enable the corresponding features. These are limited availability checks, not an upload of a general installed-app inventory.
+The app checks whether the Amazon Appstore (or Amazon App Tester during local testing) is installed and whether a compatible text-to-speech service is available, so it can enable the corresponding features. These are limited availability checks, not an upload of a general installed-app inventory.
 
-## Optional microphone commands
+## Microphone-free first release
 
-Microphone input is off by default. A parent must enable it in the protected parent area and grant the device microphone permission. Each recognition interaction starts from a tap on the microphone; the app does not continuously listen.
+Version 0.2.4 does not include microphone commands, request microphone permission, create a speech recognizer or record audio. Touch controls are available for every game. An earlier development build had optional push-to-talk; that feature is disabled in this release, including any opt-in saved by an earlier build.
 
-GlobeMilo does not save raw audio or speech transcripts. An installed speech-recognition provider may transmit audio to its own servers to recognise a command. The app requests an offline preference but does not guarantee offline recognition. A voice can contain personal information, so review the installed provider's privacy terms and device settings before enabling this feature. Parents can leave it disabled, turn it off in the app, and revoke microphone permission in device settings. Every activity has touch controls.
+Optional spoken guidance is text-to-speech output using the installed Android provider. It speaks game instructions and geography text, not a child's recordings. Voices may require downloads or network access; review the installed provider's terms and settings. The app does not guarantee every voice or language will be available.
 
-The command parser accepts a small set of game commands. It is not an open-ended AI chat service. A parent gate and device permission are interaction controls; they are not a representation that legally verified parental consent has been obtained for every possible voice provider or jurisdiction.
+The arithmetic parent gate is an interaction control. It is not a claim that legally verified parental consent has been obtained for other processing or every jurisdiction.
 
 ## Amazon purchases
 
@@ -50,7 +50,7 @@ If you voluntarily contact support, your email address and message are used to r
 
 ## Parents and children's privacy
 
-Parents control optional microphone use, narration, difficulty and local profile deletion. The game uses high-privacy defaults and does not require a child to provide a real name, birth date or email address. Optional third-party voice and purchase services have their own processing and retention practices. A parent may keep voice input disabled and use the included games by touch.
+Parents control optional narration, difficulty and local profile deletion. Microphone commands are not included in this release. The game uses high-privacy defaults and does not require a child to provide a real name, birth date or email address. Optional third-party text-to-speech and purchase services have their own processing and retention practices. Parents can turn narration off and use the included games by touch.
 
 Contact **banksmi@mail.com** for privacy questions or help exercising applicable access, correction or deletion rights. Because learning data is stored locally, the publisher cannot remotely retrieve or delete a device's learning database.
 
